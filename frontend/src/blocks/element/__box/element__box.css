@@ -1,0 +1,6 @@
+.element__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 17px 27px 21px;
+}

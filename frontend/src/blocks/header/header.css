@@ -1,0 +1,18 @@
+.header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  max-width: 880px;
+  margin: 0 auto;
+  padding-bottom: 39px;
+  border-bottom: 1px solid rgb(84, 84, 84, 0.7);
+}
+
+@media screen and (min-width: 320px) and (max-width: 920px) {
+  .header {
+    padding-bottom: 28.6px;
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+}

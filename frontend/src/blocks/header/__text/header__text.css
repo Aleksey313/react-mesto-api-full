@@ -1,0 +1,17 @@
+.header__text {
+  max-width: 200px;
+  margin-right: 24px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+  .header__text {
+    max-width: 160px;
+    margin: 0 0 5px;
+  }
+}
